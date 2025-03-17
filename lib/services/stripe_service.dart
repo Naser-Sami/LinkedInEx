@@ -56,7 +56,7 @@ class StripeService {
       await Stripe.instance.initPaymentSheet(
         paymentSheetParameters: SetupPaymentSheetParameters(
           paymentIntentClientSecret: paymentIntent?['client_secret'],
-          merchantDisplayName: 'ShopZen',
+          merchantDisplayName: 'LinkedInEX',
         ),
       );
 
